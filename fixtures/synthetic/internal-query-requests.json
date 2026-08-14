@@ -1,0 +1,37 @@
+[
+  {
+    "id": "demo-query-operational-a",
+    "actor": "authorized_internal_user",
+    "category": "operational_summary",
+    "scope": "demo-scope-region-a",
+    "requestedFields": [
+      "recordCount",
+      "currentStage",
+      "lastUpdatedAt"
+    ],
+    "expectedAllowed": true
+  },
+  {
+    "id": "demo-query-denied-actor-a",
+    "actor": "customer",
+    "category": "shipment_status",
+    "scope": "demo-scope-region-a",
+    "requestedFields": [
+      "publicState",
+      "lastEventAt"
+    ],
+    "expectedAllowed": false
+  },
+  {
+    "id": "demo-query-filtered-field-a",
+    "actor": "authorized_internal_user",
+    "category": "financial_status_reference",
+    "scope": "demo-scope-region-b",
+    "requestedFields": [
+      "referenceStatus",
+      "referenceDate",
+      "amount"
+    ],
+    "expectedAllowed": true
+  }
+]

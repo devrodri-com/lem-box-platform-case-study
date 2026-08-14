@@ -1,0 +1,81 @@
+{
+  "snapshotId": "web-snapshot-v1",
+  "title": "LEM-BOX Web Platform — Current Web Snapshot v1",
+  "capturedMonth": "2026-08",
+  "evidenceType": "versioned-product-snapshot",
+  "interfaceType": "real-web-interface",
+  "dataMode": "synthetic-only",
+  "imageCount": 9,
+  "images": [
+    {
+      "file": "01-operations-overview.png",
+      "publicTitle": "Operations Overview",
+      "width": 1440,
+      "height": 900,
+      "sha256": "324acc3504d62c4a3493363892f275bddcb69bb6ddb945313be057facfdde836"
+    },
+    {
+      "file": "02-operational-intake.png",
+      "publicTitle": "Operational Intake",
+      "width": 1440,
+      "height": 900,
+      "sha256": "a4e1847e4dcc0e03dbdef65a74e67496a9775d71483adb5d75c90745637db31f"
+    },
+    {
+      "file": "03-shipment-preparation.png",
+      "publicTitle": "Shipment Preparation",
+      "width": 1440,
+      "height": 900,
+      "sha256": "6a974582fd3f6a08c2c31b6319b31d085ae284f76ffbe795699d0ee272d8c507"
+    },
+    {
+      "file": "04-history-traceability.png",
+      "publicTitle": "History and Traceability",
+      "width": 1440,
+      "height": 900,
+      "sha256": "9613b08849dd192118bea2c70214128c4d733c1d3e2f681b4d00ef4db20eea05"
+    },
+    {
+      "file": "05-web-operational-reporting.png",
+      "publicTitle": "Web Operational Reporting",
+      "width": 1440,
+      "height": 900,
+      "sha256": "ab75bb46ff4f2cb3dc85580a8dea7dd4ceeccf6edfd409014362f7dd298f2735"
+    },
+    {
+      "file": "06-customer-history-photos.png",
+      "publicTitle": "Customer History and Photos",
+      "width": 1440,
+      "height": 900,
+      "sha256": "c77c4a475e4927ec37fae0c238da09383118cfaf02d81eb17fbf1dde91f8b22b"
+    },
+    {
+      "file": "07-customer-box-detail.png",
+      "publicTitle": "Customer Box Detail",
+      "width": 1440,
+      "height": 900,
+      "sha256": "12b9ec73c09834a7239387355c42a8949d04f75dcb016803b85508295ab87906"
+    },
+    {
+      "file": "08-customer-shipments.png",
+      "publicTitle": "Customer Shipments",
+      "width": 1440,
+      "height": 900,
+      "sha256": "82b6597b1372ffb5d62eb73662bc4361743b979a334aa18171de8bc70bba7e64"
+    },
+    {
+      "file": "09-partner-workspace.png",
+      "publicTitle": "Partner Workspace",
+      "width": 1440,
+      "height": 900,
+      "sha256": "93d7c6e9cde959dbab87bbc4e5145ce7c25a331e7f67c866e57e6acd04dca621"
+    }
+  ],
+  "limitations": [
+    "This snapshot records selected role-based web views as captured in August 2026 and is not a final-interface claim.",
+    "Displayed records and business values are synthetic-only and do not represent production data, scale, or outcomes.",
+    "The images do not establish complete security, performance, scalability, availability, architecture, or authorization behavior.",
+    "Mobile, Telegram, messaging, bot, and internal-assistant evidence are not included."
+  ],
+  "refreshPolicy": "Retain this version as dated historical evidence. Its targeted Phase 4B attestation found no material post-baseline change in captures 06 or 09, so no refresh was required for this version. Before any future public update, assess material interface changes and create a reviewed selective refresh or new version when required."
+}

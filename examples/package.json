@@ -1,0 +1,20 @@
+{
+  "name": "lem-box-public-synthetic-examples",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=20.19.0 <21"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "validate:fixtures": "vitest run test/synthetic-fixture-validator.test.ts",
+    "validate": "npm run typecheck && npm test && npm run validate:fixtures"
+  },
+  "devDependencies": {
+    "@types/node": "20.19.43",
+    "typescript": "7.0.2",
+    "vitest": "4.1.10"
+  }
+}

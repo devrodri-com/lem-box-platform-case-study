@@ -1,0 +1,30 @@
+[
+  {
+    "id": "demo-event-moving-a",
+    "shipmentId": "demo-shipment-a",
+    "eventType": "moving",
+    "timestamp": "2030-04-08T12:00:00Z",
+    "sanitizedMessage": "Synthetic movement update"
+  },
+  {
+    "id": "demo-event-received-a",
+    "shipmentId": "demo-shipment-a",
+    "eventType": "received",
+    "timestamp": "2030-04-08T08:00:00Z",
+    "sanitizedMessage": "Demo event received"
+  },
+  {
+    "id": "demo-event-moving-duplicate-a",
+    "shipmentId": "demo-shipment-a",
+    "eventType": "moving",
+    "timestamp": "2030-04-08T12:00:00Z",
+    "sanitizedMessage": "Synthetic movement update"
+  },
+  {
+    "id": "demo-event-arrived-a",
+    "shipmentId": "demo-shipment-a",
+    "eventType": "arrived",
+    "timestamp": "2030-04-08T16:00:00Z",
+    "sanitizedMessage": "Demo event arrived"
+  }
+]

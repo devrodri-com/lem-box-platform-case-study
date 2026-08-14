@@ -1,0 +1,62 @@
+[
+  {
+    "id": "demo-shipment-a",
+    "accountId": "demo-account-a",
+    "scope": "demo-scope-region-a",
+    "publicState": "intake",
+    "recordLabel": "Demo operational record A",
+    "history": [
+      {
+        "state": "intake",
+        "timestamp": "2030-02-10T09:00:00Z"
+      }
+    ],
+    "transitionCase": {
+      "id": "demo-transition-valid-a",
+      "fromState": "intake",
+      "toState": "verified",
+      "timestamp": "2030-02-10T09:15:00Z",
+      "expectedAllowed": true
+    }
+  },
+  {
+    "id": "demo-shipment-b",
+    "accountId": "demo-account-b",
+    "scope": "demo-scope-region-b",
+    "publicState": "completed",
+    "recordLabel": "Demo operational record B",
+    "history": [
+      {
+        "state": "intake",
+        "timestamp": "2030-03-11T10:00:00Z"
+      },
+      {
+        "state": "verified",
+        "timestamp": "2030-03-11T11:00:00Z"
+      },
+      {
+        "state": "prepared",
+        "timestamp": "2030-03-11T12:00:00Z"
+      },
+      {
+        "state": "in_transit",
+        "timestamp": "2030-03-11T13:00:00Z"
+      },
+      {
+        "state": "available",
+        "timestamp": "2030-03-11T13:30:00Z"
+      },
+      {
+        "state": "completed",
+        "timestamp": "2030-03-11T14:00:00Z"
+      }
+    ],
+    "transitionCase": {
+      "id": "demo-transition-invalid-a",
+      "fromState": "completed",
+      "toState": "prepared",
+      "timestamp": "2030-03-11T14:30:00Z",
+      "expectedAllowed": false
+    }
+  }
+]

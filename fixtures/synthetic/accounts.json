@@ -1,0 +1,14 @@
+[
+  {
+    "id": "demo-account-a",
+    "scope": "demo-scope-region-a",
+    "label": "Demo Account A",
+    "regionLabel": "Synthetic Region A"
+  },
+  {
+    "id": "demo-account-b",
+    "scope": "demo-scope-region-b",
+    "label": "Demo Account B",
+    "regionLabel": "Synthetic Region B"
+  }
+]

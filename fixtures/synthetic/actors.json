@@ -1,0 +1,26 @@
+[
+  {
+    "id": "demo-actor-customer-a",
+    "actor": "customer",
+    "scope": "demo-scope-region-a",
+    "displayLabel": "Demo Customer Context A"
+  },
+  {
+    "id": "demo-actor-operations-a",
+    "actor": "operations_staff",
+    "scope": "demo-scope-region-a",
+    "displayLabel": "Demo Operations Context A"
+  },
+  {
+    "id": "demo-actor-business-a",
+    "actor": "business_administrator",
+    "scope": "demo-scope-region-b",
+    "displayLabel": "Demo Business Context A"
+  },
+  {
+    "id": "demo-actor-internal-a",
+    "actor": "authorized_internal_user",
+    "scope": "demo-scope-region-b",
+    "displayLabel": "Demo Internal Context A"
+  }
+]
